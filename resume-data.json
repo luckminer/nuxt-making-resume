@@ -59,9 +59,13 @@
     {
       "company": "Stripe",
       "website": "https://stripe.com/",
-      "summary": "I build economic infrastructure for the internet.",
-      "highlights": ["Worked 100% remotely on the Connect team"],
-      "position": "Remote Fullstack Engineer",
+      "summary": "I build onboarding experiences for [Stripe Connect](https://stripe.com/connect).",
+      "highlights": [
+        "Added [account recovery](https://support.stripe.com/express/questions/i-lost-my-phone-or-changed-my-number-how-do-i-login-to-my-account) and [tax form delivery](https://stripe.com/docs/connect/express-dashboard-taxes) to the Stripe Express app",
+        "Rewrote [OAuth onboarding flows](https://stripe.com/docs/connect/oauth-express-accounts) to increase security",
+        "Implemented re-onboarding for updating [KYC](https://en.wikipedia.org/wiki/Know_your_customer) info"
+      ],
+      "position": "Remote Software Engineer",
       "startDate": "2021-08-23",
       "tags": [
         {
@@ -69,16 +73,12 @@
           "website": "https://reactjs.org/"
         },
         {
-          "display": "Flow",
-          "website": "https://flow.org/"
+          "display": "TypeScript",
+          "website": "https://www.typescriptlang.org/"
         },
         {
           "display": "Ruby",
           "website": "https://www.ruby-lang.org/"
-        },
-        {
-          "display": "Rails",
-          "website": "https://rubyonrails.org/"
         }
       ]
     },
@@ -91,10 +91,9 @@
         "Pushed Release vision forward through in-depth technical and business analysis",
         "Reviewed and guided community contributions",
         "Maintainer of [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/)",
-        "Performed technical and behavioral interviews",
-        "Worked 100% remotely"
+        "Performed technical and behavioral interviews"
       ],
-      "position": "Senior Frontend Engineer",
+      "position": "Remote Senior Frontend Engineer",
       "startDate": "2018-12-10",
       "endDate": "2021-08-20",
       "tags": [
@@ -136,7 +135,7 @@
         "Led AngularJS to Angular 2+ conversion",
         "Implemented fast, intuitive searching using Solr"
       ],
-      "position": "Project Architect",
+      "position": "Software Architect",
       "startDate": "2016-08-03",
       "endDate": "2018-12-05",
       "tags": [
@@ -174,7 +173,7 @@
         "Built mapping features using Leaflet and Bing Maps",
         "Rebuilt Gulp builds to maximize developer efficiency"
       ],
-      "position": "Software Development Specialist",
+      "position": "Software Engineer",
       "startDate": "2013-05-20",
       "endDate": "2016-07-20",
       "tags": [
