@@ -38,7 +38,7 @@ export default {
     this.isProduction = process.env.isProduction;
     this.deployedTimestamp = moment(process.env.gitlabCi.timestamp)
       .utc()
-      .format('Y/MM/DD \\a\\t HH:mm:ss z');
+      .format('Y-MM-DD \\a\\t HH:mm:ss z');
     this.commitSha = process.env.gitlabCi.commitSha;
     this.commitLink = `${process.env.gitlabCi.projectUrl}/commit/${this.commitSha}`;
 
