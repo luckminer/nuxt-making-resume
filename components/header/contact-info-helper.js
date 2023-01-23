@@ -54,13 +54,19 @@ export const getLocationInfo = resumeData => {
   const location = resumeData.basics?.location;
 
   if (location) {
+    const country = location.countryCode === 'CA' ? 'Canada' : undefined;
+
     const locationInfo = {
       type: 'location',
-      display: [location.city, location.region].filter(l => l).join(', '),
+      display: [location.city, location.region, country]
+        .filter(l => l)
+        .join(', '),
     };
 
     if (location.city && location.region) {
       locationInfo.link = `https://www.google.com/maps/search/?api=1&query=${location.city}%2C+${location.region}`;
+    } else if (location.region && country) {
+      locationInfo.link = `https://www.google.com/maps/search/?api=1&query=${location.region}%2C+${country}`;
     }
 
     return locationInfo;
