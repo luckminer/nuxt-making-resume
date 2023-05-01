@@ -115,7 +115,7 @@ All résumé content in [`resume-data.json`](./resume-data.json) (or generated b
 Nathan Friend © 2020 and may not be reused without my permission.
 
 All other directories and files are MIT Licensed. If you make use of any code
-found in this project, a link back to https://gitlab.com/nfriend/nuxt-resume
+found in this project, a link back to https://gitlab.com/luckminer/nuxt-making-resume
 would be appreciated, but is not required.
 
 ## Attributions
